@@ -153,6 +153,22 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestFile\AI.txt" />
+    <Content Include="TestFile\Grigoryan.txt" />
+    <Content Include="TestFile\Krivonos.txt" />
+    <Content Include="TestFile\Mykhalenko.txt" />
+    <Content Include="TestFile\new_2.txt" />
+    <Content Include="TestFile\textpaint.txt" />
+    <Content Include="TestFile\textpaint1.txt" />
+    <Content Include="TestFile\textpaint2.txt" />
+    <Content Include="TestFile\textscience.txt" />
+    <Content Include="TestFile\textscience2.txt" />
+    <Content Include="TestFile\textsport.txt" />
+    <Content Include="TestFile\textsport1.txt" />
+    <Content Include="TestFile\textsport2.txt" />
+    <Content Include="TestFile\Udovenko, Shargin.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\CNTK.CPUOnly.2.3.1\build\net45\CNTK.CPUOnly.targets" Condition="Exists('..\packages\CNTK.CPUOnly.2.3.1\build\net45\CNTK.CPUOnly.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
